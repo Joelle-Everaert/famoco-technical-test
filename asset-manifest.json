@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/famoco-technical-test/static/js/main.14917b00.chunk.js",
+    "main.js.map": "/famoco-technical-test/static/js/main.14917b00.chunk.js.map",
+    "runtime-main.js": "/famoco-technical-test/static/js/runtime-main.c9c4ce83.js",
+    "runtime-main.js.map": "/famoco-technical-test/static/js/runtime-main.c9c4ce83.js.map",
+    "static/js/2.70d65d73.chunk.js": "/famoco-technical-test/static/js/2.70d65d73.chunk.js",
+    "static/js/2.70d65d73.chunk.js.map": "/famoco-technical-test/static/js/2.70d65d73.chunk.js.map",
+    "index.html": "/famoco-technical-test/index.html",
+    "static/js/2.70d65d73.chunk.js.LICENSE.txt": "/famoco-technical-test/static/js/2.70d65d73.chunk.js.LICENSE.txt",
+    "static/media/Roboto-Regular.a8d6ac03.ttf": "/famoco-technical-test/static/media/Roboto-Regular.a8d6ac03.ttf",
+    "static/media/zelda.7c8af604.png": "/famoco-technical-test/static/media/zelda.7c8af604.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c9c4ce83.js",
+    "static/js/2.70d65d73.chunk.js",
+    "static/js/main.14917b00.chunk.js"
+  ]
+}
