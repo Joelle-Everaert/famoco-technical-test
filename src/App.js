@@ -5,14 +5,14 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 function App() {
   return (
     <>
+      <Router basename='/famoco-technical-test/'>
       <NavBar />
       <div className="container">
-      <Router>
         <Switch>
           <Route path='/' exact component={Home} />
         </Switch>
-      </Router>
       </div>
+      </Router>
     </>
   )
 }

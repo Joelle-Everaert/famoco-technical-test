@@ -1,5 +1,5 @@
 {
-  "homepage": "https://Joelle-Everaert.github.io/famoco-technical-test",
+  
   "name": "famoco-technical-test",
   "version": "0.1.0",
   "private": true,
@@ -55,3 +55,4 @@
     "styled-components": "^5.3.1"
   }
 }
+
