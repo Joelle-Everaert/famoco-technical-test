@@ -13,3 +13,7 @@ Requirements <br>
 - Use React and Redux
 - Choose your own UI framework (internally we use Material-UI, but you are free to use whatever you want)
 - Design and UI matter to us: give them some love
+
+
+Page deployed here: <br>
+https://joelle-everaert.github.io/famoco-technical-test/
