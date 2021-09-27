@@ -24,7 +24,12 @@ export const fetchListFailure = error => {
 export const fetchList = () => {
     return (dispatch) => {
         dispatch(fetchListRequest)
-        axios.get('https://botw-compendium.herokuapp.com/api/v2/category/monsters')
+        axios({
+            method: 'get',
+            url: 'https://botw-compendium.herokuapp.com/api/v2/category/monsters',
+            withCredentials: true,
+        })
+        // axios.get('https://botw-compendium.herokuapp.com/api/v2/category/monsters')
             .then(res=>{
                 const listData = res.data
                 dispatch(fetchListSucces(listData))
