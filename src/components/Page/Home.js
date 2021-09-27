@@ -81,14 +81,14 @@ const ExpandableTableRow = ({ children, expandComponent, ...otherProps }) => {
 
 const Home = ({ listData, fetchList }) => {
   const [page, setPage] = useState(0)
-  const [rowsPerPage, setRowsPerPage] = useState(5)
+  const [elementPerPage, setElementPerPage] = useState(4)
 
   const handleChangePage = (event, newPage) => {
     setPage(newPage)
   }
 
   const handleChangeRowsPerPage = (event) => {
-    setRowsPerPage(+event.target.value)
+    setElementPerPage(+event.target.value)
     setPage(0)
   }
 
@@ -123,7 +123,7 @@ const Home = ({ listData, fetchList }) => {
             {listData &&
               listData.data &&
               listData.data
-                .slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
+                .slice(page * elementPerPage, page * elementPerPage + elementPerPage)
                 .map((item) => {
                   return (
                     <ExpandableTableRow
@@ -165,10 +165,10 @@ const Home = ({ listData, fetchList }) => {
           </TableBody>
         </Table>
         <TablePagination
-          rowsPerPageOptions={[5, 10, 25, 100]}
+          rowsPerPageOptions={[4, 10, 15, 25, 50, 81]}
           component="div"
           count={81}
-          rowsPerPage={rowsPerPage}
+          rowsPerPage={elementPerPage}
           page={page}
           onPageChange={handleChangePage}
           onRowsPerPageChange={handleChangeRowsPerPage}

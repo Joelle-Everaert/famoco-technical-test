@@ -4,24 +4,23 @@ import logo from '../../../image/zelda.png'
 
 const NavStyle = styled.div`
   width: 100%;
-  height: 130px;
+  height: 170px;
   display: flex;
+  flex-direction: column;
   text-align: center;
   justify-content: center;
   align-items: center;
-  background-image: url(${logo});
-  background-position: center;
-  background-repeat: no-repeat;
 `
 const Title = styled.h1`
   display: flex;
   text-align: center;
-  margin: 50px 0 40px 0;
+  margin: 0;
 `
 
 const NavBar = () => {
   return (
     <NavStyle>
+      <img src={logo} alt='Zelda' />
       <Title>Welcome to the World of Zelda</Title>
     </NavStyle>
   )
